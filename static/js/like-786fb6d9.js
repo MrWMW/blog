@@ -1,0 +1,1 @@
+import{h as n}from"./index-4fec17ab.js";const o=e=>new Promise((t,s)=>{n.post("/like/addLike",e).then(r=>{t(r)})}),c=e=>new Promise((t,s)=>{n.post("/like/getIsLikeByIdOrIpAndType",e).then(r=>{t(r)})}),p=e=>new Promise((t,s)=>{n.post("/like/cancelLike",e).then(r=>{t(r)})});export{o as a,p as c,c as g};

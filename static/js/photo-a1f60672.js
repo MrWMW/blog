@@ -1,0 +1,1 @@
+import{h as l}from"./index-4fec17ab.js";const m=()=>new Promise((t,e)=>{l.get("/photoAlbum/getAllAlbumList",{}).then(o=>{t(o)})}),A=t=>new Promise((e,o)=>{l.get(`/photo/getAllPhotosByAlbumId/${t}`,{}).then(r=>{e(r)})});export{A as a,m as g};
